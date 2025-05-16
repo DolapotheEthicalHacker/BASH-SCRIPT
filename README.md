@@ -3,7 +3,7 @@
 
 This project is a basic implementation of a Bash-based IP sweeper tool. Created by *DolapotheEthicalHacker*, it scans all IP addresses from .1 to .254 within a given subnet and reports which ones are online using ping.
 
-## 📡 Features
+##  Features
 
 - Simple Bash script for local network scanning  
 - Scans Class C subnets (e.g. 192.168.1.0/24)  
@@ -11,11 +11,11 @@ This project is a basic implementation of a Bash-based IP sweeper tool. Created 
 - Lightweight and runs entirely in the terminal  
 - Easy to modify or extend for advanced network automation
 
-## 📁 File
+##  File
 
 - ipsweep.sh: The Bash script that contains the IP scanning logic.
 
-## 🛠 Requirements
+##  Requirements
 
 No extra tools are required beyond standard Linux utilities. The script uses:
 
@@ -25,7 +25,7 @@ No extra tools are required beyond standard Linux utilities. The script uses:
 
 This makes it ideal for environments like Kali Linux or other Unix-based systems.
 
-## 🧠 How the Script Works
+##  How the Script Works
 
 Here's what the script does:
 
@@ -41,7 +41,7 @@ Here's what the script does:
 4. *Extracts the responding IP address:*  
    Using cut and tr, it cleans and displays only the live IPs.
 
-## ▶ How to Run
+##  How to Run
 
 Make the script executable:
 
@@ -64,7 +64,7 @@ You forgot an ip address
 Syntax: ./ipsweep.sh <ip>
 
 
-### 🔄 Example Output
+###  Example Output
 
 
 192.168.1.1
@@ -75,7 +75,7 @@ Syntax: ./ipsweep.sh <ip>
 
 These are the IPs that responded to the ping and are considered *live* on your network.
 
-## 🧩 Customization
+##  Customization
 
 You can modify or extend this script by:
 
@@ -87,7 +87,7 @@ You can modify or extend this script by:
 - Adding a hostname lookup using nslookup or host
 - Using nmap for advanced scanning
 
-## 🧑‍💻 Author
+##  Author
 
 *DolapotheEthicalHacker*
 
